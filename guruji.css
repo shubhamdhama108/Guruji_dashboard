@@ -1,0 +1,698 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* HEADER=================================================================================================== */
+
+header {
+  width: 100%;
+  height: 17vh;
+  background-color: #ebf5ff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header div {
+  display: inline-block;
+}
+
+#title {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+  position: absolute;
+  left: 0%;
+  height: 150px;
+  width: 150px;
+  flex-wrap: wrap;
+  font-size: 3rem;
+}
+
+#title span {
+  position: absolute;
+  /* text-shadow: 2px 2px #8eadfa; */
+  left: 10px;
+  margin: 20px;
+  margin-top: 25px;
+  color: #965efb;
+}
+
+#talk-now {
+  text-shadow: 2px 2px 8px #baceff;
+  position: absolute;
+  left: 300px;
+  font-size: 1.5rem;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  margin-top: 35px;
+  color: black;
+}
+
+#languages {
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 35px;
+  position: absolute;
+  left: 1000px;
+  height: 30px;
+  width: 80px;
+  font-size: 15px;
+  background-color: #f2e9e9;
+  overflow: hidden;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#languages:hover,
+#wallet:hover {
+  background-color: #edf2ff;
+}
+
+#wallet {
+  cursor: pointer;
+  position: absolute;
+  padding: 0px;
+  left: 1100px;
+  height: 27px;
+  width: 78px;
+  margin-top: 35px;
+  font-size: 19px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: #f2e9e9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#wallet i {
+  margin: 3px;
+  height: 20px;
+  width: 20px;
+}
+#wallet span {
+  margin: 2px;
+  padding: 0px;
+  font-size: 18.5px;
+}
+
+#login {
+  cursor: pointer;
+  position: absolute;
+  left: 1200px;
+  margin-top: 25px;
+  background-image: url(Avatar1.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  transition: all 0.5s;
+}
+
+#login:hover {
+  transform: scale(1.2);
+}
+
+/* SECTION====================================================================================================== */
+
+section {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* CALL TO CONSULT SECTION====================================================================================== */
+
+#call-to-consult {
+  background-color: #734ae8;
+  background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
+}
+
+#call-to-consult-header {
+  height: 200px;
+  width: 50%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+#call-to-consult-header span {
+  margin: 30px;
+  position: absolute;
+  width: 448px;
+  height: 144px;
+  left: 0px;
+  top: 0px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+#call-to-consult-divider {
+  position: absolute;
+  width: 448px;
+  height: 0px;
+  left: 32px;
+  border: 1px solid rgba(34, 34, 34, 0.4);
+  top: 320px;
+}
+
+#call-to-consult-content {
+  position: absolute;
+  top: 340px;
+  width: 50%;
+  height: 200px;
+}
+
+#call-to-consult-content span {
+  position: absolute;
+  left: 30px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+}
+
+#call-to-consult-content-inside {
+  position: absolute;
+  width: 90%;
+  height: 70%;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 30px;
+  flex-wrap: wrap;
+}
+
+#call-to-consult-content-inside div {
+  position: absolute;
+  border: 2px solid black;
+  width: 25%;
+  height: 35%;
+  border-radius: 5px;
+}
+
+#trustpilot {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #b4cffa;
+  left: 30px;
+  width: 25%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+#trustpilot:hover {
+  transform: scale(1.1);
+}
+
+#rating {
+  position: absolute;
+  left: 210px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #b4cffa;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+#rating:hover {
+  transform: scale(1.1);
+}
+
+#rating span {
+  margin: 10px;
+}
+
+#reviews {
+  position: absolute;
+  left: 390px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #b4cffa;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+#reviews:hover {
+  transform: scale(1.1);
+}
+
+/* PROBLEMS TO CONSULT SECTION============================================================================================== */
+
+#problem-heading {
+  position: absolute;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+  margin-left: 30px;
+}
+
+#problems {
+  padding: 30px;
+}
+
+#problem-tags {
+  position: absolute;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#problem-tags span {
+  /* border: 1px solid black; */
+  border-radius: 5px;
+}
+
+#problem-tags tag1 {
+  position: absolute;
+  font-size: 15px;
+  left: 800px;
+  cursor: pointer;
+}
+#problem-tag1,
+#problem-tag2 {
+  cursor: pointer;
+  background-color: #e4e1e2;
+  box-shadow: 2px 10px 12px rgba(0, 0, 0.5, 0.5);
+}
+#problem-tag1:hover,
+#problem-tag2:hover {
+  background-color: #2b2a2a;
+  color: white;
+}
+
+#problem-tags tag2 {
+  left: 700px;
+  cursor: pointer;
+}
+
+#problem-tags span {
+  font-size: 20px;
+  padding: 5px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#problem-tags div {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 15px;
+  margin-top: 70px;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 15%;
+  height: 200px;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: none;
+  margin-bottom: 40px;
+}
+
+#leftarrow button,
+#rightarrow button {
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+#leftarrow button:hover,
+#rightarrow button:hover {
+  transform: scale(1.2);
+}
+
+.box img {
+  width: 100%;
+  height: 250px;
+  transition: all 1s;
+}
+
+.box img:hover {
+  /* animation: all 0.6s ease-in-out 2 alternate; */
+  transform: scale(1.2);
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+/* WHY ASTROLOGY SECTION=============================================================================================== */
+
+#why {
+  padding-top: 40px;
+  background: #f6f4f8;
+}
+
+#why-header span {
+  margin-top: 20px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+}
+
+#why-para1 span {
+  margin-top: 20px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+
+#why-para2 {
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 30px;
+  margin-top: 60px;
+}
+
+#why-para2 span {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 48px 0px;
+  letter-spacing: -0.02em;
+  color: #777e91;
+}
+
+/* 100% SATISFACTION GURANTEE SECTION================================================================================== */
+
+#satisfaction-header span {
+  margin-top: 30px;
+}
+
+#satisfaction-container {
+  margin-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 30px;
+  margin-bottom: 2%;
+  justify-content: space-around;
+}
+
+.satisfaction-image {
+  overflow: hidden;
+  margin: 10px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.satisfaction-image img {
+  cursor: pointer;
+  width: 60%;
+  height: 70%;
+  transition: all 0.5s;
+}
+
+.satisfaction-image img:hover {
+  transform: scale(1.1);
+}
+
+#satisfaction-content span {
+  margin-top: 20px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+/* HOW IT WORKS SECTION================================================================================================== */
+
+#how-it-works {
+  background-color: #f6f4f8;
+}
+
+#how-it-works-header span {
+  margin-top: 20px;
+}
+
+#how-it-works-container {
+  margin-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 30px;
+  margin-bottom: 2%;
+  justify-content: space-around;
+}
+
+.how-it-works-class img {
+  cursor: pointer;
+  height: 70%;
+  width: 70%;
+  transition: all 0.5s;
+}
+
+.how-it-works-class img:hover {
+  transform: scale(1.1);
+}
+
+.how-it-works-class {
+  display: block;
+}
+
+.how-it-works-content-header {
+  margin-bottom: 10px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.how-it-works-content {
+  margin-top: 10px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+/* START YOUR FIRST CONSULTATION SECTION================================================================================= */
+
+#consultation-header {
+  margin-top: 30px;
+}
+
+.consultation-container {
+  padding: 15px;
+  margin-top: 70px;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.consultation-box {
+  width: 15%;
+  height: 200px;
+  background-size: cover;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: none;
+  margin-bottom: 40px;
+}
+
+.consultation-box img {
+  width: 100%;
+  height: 250px;
+  transition: all 0.5s;
+}
+
+.consultation-box img:hover {
+  transform: scale(1.2);
+}
+
+/* PROTECT RIGHTS SECTION============================================================================================*/
+
+#protect-rights {
+  background-color: #f6f4f8;
+}
+
+#protect-rights-header {
+  margin-top: 20px;
+}
+
+#protect-rights-container {
+  margin-top: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 30px;
+  margin-bottom: 2%;
+  justify-content: space-around;
+}
+
+.protect-rights-class {
+  display: block;
+  margin-top: 30px;
+}
+
+.protect-rights-class img {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.protect-rights-class img:hover {
+  transform: scale(1.1);
+}
+
+.protect-rights-content {
+  margin-top: 30px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+/* ASTROTALK SECTION=================================================================================================== */
+
+#astrotalk-header {
+  margin-top: 20px;
+}
+
+#astrotalk-header-content {
+  margin-top: 10px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+#astrotalk-container {
+  margin-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 30px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.astrotalk-image {
+  cursor: pointer;
+  overflow: hidden;
+  margin: 10px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #faadbd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+
+.astrotalk-image:hover {
+  transform: scale(1.1);
+}
+
+.astrotalk-image img {
+  height: 100%;
+  width: 100%;
+}
+
+/* START NOW FOOTER SECTION============================================================================================ */
+
+#footer img {
+  cursor: pointer;
+  margin-top: 40px;
+  height: 100%;
+  width: 100%;
+}
+
+/* COMMON CLASSES====================================================================================================== */
+
+.align-center {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.header-property {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+  letter-spacing: -0.02em;
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guruji Astro</title>
+    <link rel="stylesheet" type="text/css" href="guruji.css">
+	<script src="https://kit.fontawesome.com/114e12f8e5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="guruji.js">
+
+</head>
+<body onload="show()">
+    <header>
+        <div id="title">
+          <span>GURUJI</span>
+        </div>
+        <span id="talk-now">
+            Talk with Astrologer
+        </span>
+        <Select id="languages">
+                <option>English</option>
+                <option>french</option>
+                <option>Hindi</option>
+                <option>Spain</option>
+            
+        </Select>
+        
+        <div id="wallet">
+            <!-- <img src="wallet.png"> -->
+            <i class="fas fa-wallet"></i>
+            <span>₹200</span>
+        </div>
+        <div id="login">
+
+        </div>
+    </header>
+    <main>
+
+        <section id="call-to-consult">
+            <div id="call-to-consult-header">
+                <span>Find your destiny and<br> remedies with top<br>  expert astrologers</span>
+            </div>
+            <div id="call-to-consult-divider"></div> 
+            <div id="call-to-consult-content">
+                <span>Call to consult with professional astrologers</span>
+                <div id="call-to-consult-content-inside">
+                    <div id="trustpilot"><span><img src="Vector.png"><img src="Trustpilot.png" alt=""></span></div>
+                    <div id="rating"><span><img src="image7.png" alt=""></span></div>
+                    <div id="reviews"><span><img src="image6.png" alt=""></span></div>
+                </div>
+            </div> 
+        </section>
+
+
+        <section id="problems" class="align-center">
+            <div id="problems-heading">
+                <span class="header-property">All the problem you can consult and get answer</span>
+            </div>
+            <div id="problem-tags">
+                <div>
+                    <span id="problem-tag1">Scenario</span>
+                    &nbsp; &nbsp;
+                    <span id="problem-tag2">Consult Methods</span>
+                </div>
+                
+            </div>
+            
+                <div class="container">
+                    <div id="leftarrow" onclick="moveLeft()"><button style="border-radius: 10px;">&lt;</button></div>
+                    <div class="box" id="p1">
+                        <img src="Frame1200.png" alt="">
+                    </div>
+                    <div class="box" id="p2">
+                        <img src="Frame1201.png" alt="">
+                    </div>
+                    <div class="box" id="p3">
+                        <img src="Frame1202.png" alt="">
+                    </div>
+                    <div class="box" id="p4">
+                        <img src="Frame1203.png" alt="">
+                    </div>
+                    <div class="box" id="p5"> 
+                        <img src="Frame1204.png" alt="">
+                    </div>
+                    <div class="box" id="p6">
+                        <img src="Frame1205.png" alt="">
+                    </div>
+                    
+                    <div id="rightarrow" onclick="moveRight()"><button style="border-radius: 10px;">&gt;</button></div>
+                
+            
+            </div>
+            
+
+        </section>
+
+
+        <section id="why" class="align-center">
+            <div id="why-header">
+                <span class="header-property">Why Astrology？<i style="color: white; background-color: black; border-radius: 50%;" class="fas fa-arrow-up"></i></span>
+            </div>
+            <div id="why-para1">
+                <span>Astrology reveals the will of the God</span>
+            </div>
+            <div id="why-para2">
+                <span>I want to speak like a native Japanese person. Learning a foreign language has been eye opening, so I want to further improve my Japanese skills. AmazingTalker is a flexible platform that lets me schedule my lessons for whenever I need, select tutors that fit my budget and needs, and even purchase a single lesson if I'd like. Don’t put off learning a new language！<br>
+
+                    <br>
+                    I learn foreign languages to expand my future plans. Language learning lets me explore other interests and possibilities in my life. AmazingTalker is a student-oriented platform, where I can learn in my own pace. Tutors offer personalized courses based on my learning needs. Thanks to AmazingTalker, language learning has helped enrich my life.</span>
+            </div>
+        </section>
+
+        <section id="satisfaction" class="align-center">
+            
+                
+                <div id="satisfaction-header" class="align-center">
+                    <span class="header-property">100% Satisfaction guarantee </span>
+                </div>
+                <div id="satisfaction-content">
+                    <span>If you are not satisfied by your consultation. We promise you to refund and you can take another Guruji</span>
+                </div>
+
+                <div id="satisfaction-container">
+                    <div class="satisfaction-image">
+                        <img src="Frame1225.png" alt="">
+                    </div>
+                    <div class="satisfaction-image">
+                        <img src="Frame1225.png" alt="">
+                    </div>
+                    <div class="satisfaction-image">
+                        <img src="Frame1225.png" alt="">
+                    </div>
+                    <div class="satisfaction-image">
+                        <img src="Frame1225.png" alt="">
+                    </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+        <section id="how-it-works" class="align-center">
+            <div id="how-it-works-header" class="align-center">
+                <span class="header-property">How it Works</span>
+            </div>
+            <div id="how-it-works-container">
+                <div class="how-it-works-class">
+                    <img src="image1.png" alt="">
+                    <div class="how-it-works-content-header">
+                        <span>Find your Guruji</span>
+                    </div>
+                    <span class="how-it-works-content">Browse astrologers <br> and check their skills,
+                        <br> specialties and reviews. <br> find your destinated Guruji.</span>
+                </div>
+                <div class="how-it-works-class">
+                    <img src="image2.png" alt="">
+                    <div class="how-it-works-content-header">
+                        <span>Recharge for Consultation</span>
+                    </div>
+                    <span class="how-it-works-content">
+                        After recharge, <br> you can have the new user <br> offer: ₹5/min and MAX <br> 6 mins duration.
+                    </span>
+                </div>
+                <div class="how-it-works-class">
+                    <img src="image3.png" alt="">
+                    <div class="how-it-works-content-header">
+                        <span>Solve problem with astrologers</span>
+                    </div>
+                    <span class="how-it-works-content">Call and Ask astrologers your <br> problems.By providing your birth <br> chart,
+                          astrologer can help <br> you get the answer.
+
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="first-consultation" class="align-center">
+            <div id="consultation-header" class="align-center">
+                <span class="header-property">Start your first consultation ＠₹5/min</span>
+            </div>
+            
+            <div class="consultation-container">
+                <div id="leftarrow" onclick="moveLeft()"><button style="border-radius: 10px;">&lt;</button></div>
+                <div class="consultation-box" id="c1">
+                    <img src="astrocard.png" alt="">
+                </div>
+                <div class="consultation-box" id="c2">
+                    <img src="astrocard.png" alt="">
+                </div>
+                <div class="consultation-box" id="c3">
+                    <img src="astrocard.png" alt="">
+                </div>
+                <div class="consultation-box" id="c4">
+                    <img src="astrocard.png" alt="">
+                </div>
+                <div class="consultation-box" id="c5"> 
+                    <img src="astrocard.png" alt="">
+                </div>
+                <div class="consultation-box" id="c6">
+                    <img src="astrocard.png" alt="">
+                </div>
+                
+                <div id="rightarrow" onclick="moveRight()"><button style="border-radius: 10px;">See more &#8594;</button></div>
+            
+        
+        </div>
+        </section>
+
+        <section id="protect-rights" class="align-center">
+            <div id="protect-rights-header" class="align-center"><span class="header-property">We protect the rights of users</span></div>
+            <div id="protect-rights-container">
+                <div class="protect-rights-class">
+                    <img src="circle.png" alt="">
+                    <div class="protect-rights-content">
+                        <span>Refund if unsatisfied</span>
+                    </div>
+                </div>
+                <div class="protect-rights-class">
+                    <img src="circle.png" alt="">
+                    <div class="protect-rights-content">
+                        <span>24 X 7 Customer support</span>
+                    </div>
+                </div>
+                <div class="protect-rights-class">
+                    <img src="circle.png" alt="">
+                    <div class="protect-rights-content">
+                        <span>100% quality guarantee</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="astrotalk" class="align-center">
+            <div id="astrotalk-header" class="align-center">
+                <span class="header-property">Astrotalk in News</span>
+            </div>
+            <span id="astrotalk-header-content">Our Sucess stories in Media Headlines and lots of Encouragement</span>
+
+            <div id="astrotalk-container">
+                <div class="astrotalk-image">
+                    <img src="rectangle1268.png" alt="">
+                </div>
+                <div class="astrotalk-image">
+                    <img src="rectangle1268.png" alt="">
+                </div>
+                <div class="astrotalk-image">
+                    <img src="rectangle1268.png" alt="">
+                </div>
+                <div class="astrotalk-image">
+                    <img src="rectangle1268.png" alt="">
+                </div>
+                <div class="astrotalk-image">
+                    <img src="rectangle1268.png" alt="">
+                </div>
+                <div class="astrotalk-image">
+                    <img src="rectangle1268.png" alt="">
+                </div>
+                <div class="astrotalk-image">
+                    <img src="rectangle1268.png" alt="">
+                </div>
+                <div class="astrotalk-image">
+                    <img src="rectangle1268.png" alt="">
+                </div>
+                
+               
+            </div>
+        </section>
+
+        <section id="footer">
+            <img src="whatareyou.png" alt="">
+        </section>
+
+        
+    </main>
+    <Script src="guruji.js"></Script>
+</body>
+</html>
